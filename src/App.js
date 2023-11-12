@@ -52,7 +52,7 @@ const ProfileImage = () => <img src='' alt=''></img>
 const Description = () => {
   return (
   <div>
-    <h3> TT </h3>
+    <h1> TT </h1>
     <p>
     Aspiring Full-stack web developer. When not coding I like to play games, catch up with friends and watch sports.
     </p>
@@ -64,9 +64,11 @@ const Skillset = ({skills}) => {
   return skills.map(({skill,level,color}) => {
     level = (level === "beginner" && "👶")|| (level === "intermediate" && "👍") || (level === "advanced" && "💪");
     return (
-  <ul className='skill-list' key={skill}> 
-      <li className='skill'>{skill} {level}</li>
-    </ul>
+      <div className='skill'> 
+        <span  key={skill}>  </span>
+        <span style={{backgroundColor : color}}> {skill} {level} </span>
+      </div>
+ 
     )
   }); 
   
