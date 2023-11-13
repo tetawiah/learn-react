@@ -1,76 +1,69 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 
+const Button = ({name,onClick}) => (
+  <button className='button' onClick={onClick}>
+    {name}
+  </button>
+)
 
-        const skills = [
-          {
-            skill: "HTML+CSS",
-            level: "advanced",
-            color: "#2662EA"
-          },
-          {
-            skill: "JavaScript",
-            level: "advanced",
-            color: "#EFD81D"
-          },
-          {
-            skill: "Web Design",
-            level: "advanced",
-            color: "#C3DCAF"
-          },
-          {
-            skill: "Git and GitHub",
-            level: "intermediate",
-            color: "#E84F33"
-          },
-          {
-            skill: "React",
-            level: "advanced",
-            color: "#60DAFB"
-          },
-          {
-            skill: "Svelte",
-            level: "beginner",
-            color: "#FF3B00"
-          }
-        ];
-
-export default function App() {
-  return (
-  <div className='card'>
-    <ProfileImage/>
-    <div className='data'> 
-      <Description/>
-      <Skillset skills={skills}/>
+const Step = ({step,decreaseStep,increaseStep}) => (
+    <div>
+      <Button name='-' onClick={decreaseStep}></Button>
+      <span> Step: {step}</span>
+      <Button name='+' onClick={increaseStep}></Button>
     </div>
-  </div>
-  );
-}
+    
+);
 
-const ProfileImage = () => <img src='' alt=''></img>
-
-const Description = () => {
-  return (
+const Count = ({count,decreaseCount,increaseCount}) => (
   <div>
-    <h1> TT </h1>
-    <p>
-    Aspiring Full-stack web developer. When not coding I like to play games, catch up with friends and watch sports.
-    </p>
-  </div> 
+      <Button name='-' onClick={decreaseCount}></Button>
+      <span> Count: {count} </span>
+      <Button name='+'onClick={increaseCount}></Button>
+  </div>
+)
+
+const Dater =({count}) => {
+  const date = new Date();
+  date.setDate(date.getDate() + count);
+  
+  if(count < 0) {
+    return (<p> {`${Math.abs(count)} ${count === -1 ? 'day' : 'days'} ago was ${date.toDateString()}`} </p>)
+  } else if (count > 0){
+    return (<p> {`${Math.abs(count)} ${count === 1 ? 'day' : 'days'} from today is ${date.toDateString()}`} </p>)
+  }
+  return (<p> {`Today is ${date.toDateString()}`} </p>)
+}
+  
+
+export default function App () {
+  const [count,setCount] = useState(0);
+  const [step,setStep] = useState(0);
+
+
+  function increaseStep () {
+    setStep((Step) => Step + 1);
+  } 
+
+  function decreaseStep() {
+    setStep((step) => step -1);
+  }
+
+  function increaseCount () {
+    setCount((count) => count + step);
+  }
+
+  function decreaseCount () {
+    setCount((count) => count - step);
+  }
+
+
+  return (
+    <div className='data'>
+     <Step step={step} decreaseStep={decreaseStep} increaseStep={increaseStep}/>
+     <Count count={count} decreaseCount={decreaseCount} increaseCount={increaseCount}/>
+     <Dater count={count} step={step}/>
+    </div>
   )
 }
-
-const Skillset = ({skills}) => {
-  return skills.map(({skill,level,color}) => {
-    level = (level === "beginner" && "👶")|| (level === "intermediate" && "👍") || (level === "advanced" && "💪");
-    return (
-      <div className='skill'> 
-        <span  key={skill}>  </span>
-        <span style={{backgroundColor : color}}> {skill} {level} </span>
-      </div>
- 
-    )
-  }); 
-  
-}
-  
