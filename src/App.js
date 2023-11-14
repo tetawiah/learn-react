@@ -1,76 +1,24 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
+import Form from "./Form";
+import Logo from "./Logo";
+import PackagingList from "./PackagingList";
+import Stats from "./Stats";
 
-        const skills = [
-          {
-            skill: "HTML+CSS",
-            level: "advanced",
-            color: "#2662EA"
-          },
-          {
-            skill: "JavaScript",
-            level: "advanced",
-            color: "#EFD81D"
-          },
-          {
-            skill: "Web Design",
-            level: "advanced",
-            color: "#C3DCAF"
-          },
-          {
-            skill: "Git and GitHub",
-            level: "intermediate",
-            color: "#E84F33"
-          },
-          {
-            skill: "React",
-            level: "advanced",
-            color: "#60DAFB"
-          },
-          {
-            skill: "Svelte",
-            level: "beginner",
-            color: "#FF3B00"
-          }
-        ];
+const initialItems = [
+  { id: 1, description: "Passports", quantity: 2, packed: false },
+  { id: 2, description: "Socks", quantity: 12, packed: false },
+  { id: 3, description: "Pajamas", quantity: 3, packed: true },
+];
 
 export default function App() {
   return (
-  <div className='card'>
-    <ProfileImage/>
-    <div className='data'> 
-      <Description/>
-      <Skillset skills={skills}/>
+    <div>
+      <Logo />
+      <Form />
+      <PackagingList initialItems={initialItems} />
+      <Stats />
     </div>
-  </div>
   );
 }
-
-const ProfileImage = () => <img src='' alt=''></img>
-
-const Description = () => {
-  return (
-  <div>
-    <h1> TT </h1>
-    <p>
-    Aspiring Full-stack web developer. When not coding I like to play games, catch up with friends and watch sports.
-    </p>
-  </div> 
-  )
-}
-
-const Skillset = ({skills}) => {
-  return skills.map(({skill,level,color}) => {
-    level = (level === "beginner" && "👶")|| (level === "intermediate" && "👍") || (level === "advanced" && "💪");
-    return (
-      <div className='skill'> 
-        <span  key={skill}>  </span>
-        <span style={{backgroundColor : color}}> {skill} {level} </span>
-      </div>
- 
-    )
-  }); 
-  
-}
-  
