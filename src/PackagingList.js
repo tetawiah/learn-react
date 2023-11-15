@@ -1,8 +1,8 @@
-export default function PackagingList({ initialItems }) {
+export default function PackagingList({ items }) {
   return (
     <div className="list">
       <ul>
-        {initialItems.map(({ id, description, quantity, packed }) => (
+        {items.map(({ id, description, quantity, packed }) => (
           <li key={id}>
             <span style={{ textDecoration: packed && "line-through" }}>
               {quantity} {description}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 
 import Form from "./Form";
@@ -13,11 +13,18 @@ const initialItems = [
 ];
 
 export default function App() {
+  const [items, setItems] = useState([]);
+
+  const handleAddItems = (newItem) => {
+    setItems([...items, newItem]);
+    console.log(items);
+  };
+
   return (
     <div>
       <Logo />
-      <Form />
-      <PackagingList initialItems={initialItems} />
+      <Form onAddItems={handleAddItems} />
+      <PackagingList items={items} />
       <Stats />
     </div>
   );
