@@ -17,14 +17,17 @@ export default function App() {
 
   const handleAddItems = (newItem) => {
     setItems([...items, newItem]);
-    console.log(items);
+  };
+
+  const handleRemoveItem = (itemId) => {
+    setItems((items) => items.filter(({ id }) => id !== itemId));
   };
 
   return (
     <div>
       <Logo />
       <Form onAddItems={handleAddItems} />
-      <PackagingList items={items} />
+      <PackagingList items={items} onRemoveItem={handleRemoveItem} />
       <Stats />
     </div>
   );

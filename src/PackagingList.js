@@ -1,4 +1,4 @@
-export default function PackagingList({ items }) {
+export default function PackagingList({ items, onRemoveItem }) {
   return (
     <div className="list">
       <ul>
@@ -7,7 +7,9 @@ export default function PackagingList({ items }) {
             <span style={{ textDecoration: packed && "line-through" }}>
               {quantity} {description}
             </span>
-            <button style={{ color: "red" }}> X </button>
+            <button style={{ color: "red" }} onClick={() => onRemoveItem(id)}>
+              X
+            </button>
           </li>
         ))}
       </ul>
