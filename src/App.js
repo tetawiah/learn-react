@@ -1,76 +1,25 @@
-import React from 'react';
-import './style.css';
+import "./style.css";
+import Accordion from "./Accordion";
 
-
-        const skills = [
-          {
-            skill: "HTML+CSS",
-            level: "advanced",
-            color: "#2662EA"
-          },
-          {
-            skill: "JavaScript",
-            level: "advanced",
-            color: "#EFD81D"
-          },
-          {
-            skill: "Web Design",
-            level: "advanced",
-            color: "#C3DCAF"
-          },
-          {
-            skill: "Git and GitHub",
-            level: "intermediate",
-            color: "#E84F33"
-          },
-          {
-            skill: "React",
-            level: "advanced",
-            color: "#60DAFB"
-          },
-          {
-            skill: "Svelte",
-            level: "beginner",
-            color: "#FF3B00"
-          }
-        ];
+const faqs = [
+  {
+    title: "Where are these chairs assembled?",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, quaerat temporibus quas dolore provident nisi ut aliquid ratione beatae sequi aspernatur veniam repellendus.",
+  },
+  {
+    title: "How long do I have to return my chair?",
+    text: "Pariatur recusandae dignissimos fuga voluptas unde optio nesciunt commodi beatae, explicabo natus.",
+  },
+  {
+    title: "Do you ship to countries outside the EU?",
+    text: "Excepturi velit laborum, perspiciatis nemo perferendis reiciendis aliquam possimus dolor sed! Dolore laborum ducimus veritatis facere molestias!",
+  },
+];
 
 export default function App() {
   return (
-  <div className='card'>
-    <ProfileImage/>
-    <div className='data'> 
-      <Description/>
-      <Skillset skills={skills}/>
+    <div>
+      <Accordion faqs={faqs} />
     </div>
-  </div>
   );
 }
-
-const ProfileImage = () => <img src='' alt=''></img>
-
-const Description = () => {
-  return (
-  <div>
-    <h1> TT </h1>
-    <p>
-    Aspiring Full-stack web developer. When not coding I like to play games, catch up with friends and watch sports.
-    </p>
-  </div> 
-  )
-}
-
-const Skillset = ({skills}) => {
-  return skills.map(({skill,level,color}) => {
-    level = (level === "beginner" && "👶")|| (level === "intermediate" && "👍") || (level === "advanced" && "💪");
-    return (
-      <div className='skill'> 
-        <span  key={skill}>  </span>
-        <span style={{backgroundColor : color}}> {skill} {level} </span>
-      </div>
- 
-    )
-  }); 
-  
-}
-  
