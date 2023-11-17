@@ -1,35 +1,44 @@
 import { useState } from "react";
 
 export default function Accordion({ faqs }) {
+  const [curOpen, setcurOpen] = useState(null);
+
+  const updatecurOpen = (num) => {
+    setcurOpen(num);
+  };
+
   return (
     <div className="accordion">
       {faqs.map(({ title, text }, i) => (
-        <Question
+        <AccordionItem
           num={i < 9 ? "0" + (i + 1) : i + 1}
           title={title}
-          text={text}
           key={i}
-        />
+          onOpen={updatecurOpen}
+          curOpen={curOpen}
+        >
+          {text}
+        </AccordionItem>
       ))}
     </div>
   );
 }
 
-const Question = ({ num, title, text }) => {
-  const [isOpen, setIsOpen] = useState(false);
+const AccordionItem = ({ num, title, onOpen, curOpen, children }) => {
+  const isOpen = curOpen === num;
 
-  const handleChange = () => {
-    setIsOpen((isOpen) => !isOpen);
+  const handleChange = (num) => {
+    onOpen(isOpen ? null : num);
   };
   return (
     <div
-      className={`item ${isOpen === true ? "open" : ""}`}
+      className={`item ${isOpen ? "open" : ""}`}
       onClick={() => handleChange(num)}
     >
-      <p className={`number ${isOpen === true ? "open" : ""} `}>{num}</p>
-      <p className={`title isOpen === true ? "open" : "" `}>{title}</p>
+      <p className={`number ${isOpen ? "open" : ""} `}>{num}</p>
+      <p className={`title ${isOpen} ? "open" : "" `}>{title}</p>
       <p className="icon">{isOpen ? "-" : "+"}</p>
-      {isOpen ? <div className="content-box">{text}</div> : null}
+      {isOpen ? <div className="content-box">{children}</div> : null}
     </div>
   );
 };
