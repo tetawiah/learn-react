@@ -1,76 +1,30 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import { useState } from "react";
+import "./style.css";
 
-
-        const skills = [
-          {
-            skill: "HTML+CSS",
-            level: "advanced",
-            color: "#2662EA"
-          },
-          {
-            skill: "JavaScript",
-            level: "advanced",
-            color: "#EFD81D"
-          },
-          {
-            skill: "Web Design",
-            level: "advanced",
-            color: "#C3DCAF"
-          },
-          {
-            skill: "Git and GitHub",
-            level: "intermediate",
-            color: "#E84F33"
-          },
-          {
-            skill: "React",
-            level: "advanced",
-            color: "#60DAFB"
-          },
-          {
-            skill: "Svelte",
-            level: "beginner",
-            color: "#FF3B00"
-          }
-        ];
+import Bill from "./Bill";
+import Rating from "./Rating";
+import Output from "./Output";
+import Button from "./Button";
 
 export default function App() {
+  const [bill, setBill] = useState(0);
+
+  const handleSetBill = (num) => {
+    setBill(num);
+  };
+
   return (
-  <div className='card'>
-    <ProfileImage/>
-    <div className='data'> 
-      <Description/>
-      <Skillset skills={skills}/>
+    <div>
+      <Bill handleSetBill={handleSetBill} />
+      <Rating bill={bill}>
+        <span>How did you like the service?</span>
+      </Rating>
+      <Rating bill={bill}>
+        <span>How did your friend like the service?</span>
+      </Rating>
+      <Output bill={bill} tip={5} />
+      <Button bill={bill} />
     </div>
-  </div>
   );
 }
-
-const ProfileImage = () => <img src='' alt=''></img>
-
-const Description = () => {
-  return (
-  <div>
-    <h1> TT </h1>
-    <p>
-    Aspiring Full-stack web developer. When not coding I like to play games, catch up with friends and watch sports.
-    </p>
-  </div> 
-  )
-}
-
-const Skillset = ({skills}) => {
-  return skills.map(({skill,level,color}) => {
-    level = (level === "beginner" && "👶")|| (level === "intermediate" && "👍") || (level === "advanced" && "💪");
-    return (
-      <div className='skill'> 
-        <span  key={skill}>  </span>
-        <span style={{backgroundColor : color}}> {skill} {level} </span>
-      </div>
- 
-    )
-  }); 
-  
-}
-  
