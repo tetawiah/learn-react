@@ -1,8 +1,8 @@
-export default function Button({ bill }) {
+export default function Button({ bill, onReset }) {
   if (bill > 0) {
     return (
       <div>
-        <button>Reset</button>
+        <button onClick={onReset}>Reset</button>
       </div>
     );
   } else {
