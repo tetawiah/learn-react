@@ -1,5 +1,5 @@
-import { useState } from "react";
-// import "./style.css";
+import { useEffect, useState } from "react";
+import "./style.css";
 
 const tempMovieData = [
   {
@@ -48,23 +48,62 @@ const tempWatchedData = [
   },
 ];
 
+const key = "32290a11";
+
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
 export default function App() {
-  const [movies, setMovies] = useState(tempMovieData);
-  const [watched, setWatched] = useState(tempWatchedData);
+  const [movies, setMovies] = useState([]);
+  const [watched, setWatched] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [query, setQuery] = useState("");
+
+  useEffect(() => {
+    async function getMovies() {
+      try {
+        setIsLoading(true);
+        setError("");
+        const response = await fetch(
+          `http://www.omdbapi.com/?apikey=${key}&s=${query}`
+        );
+        if (!response.ok)
+          throw new Error("Something went wrong with fetching movies");
+
+        const data = await response.json();
+        if (data.Response === "False") throw new Error("Movie not found");
+        setMovies(data.Search);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setIsLoading(false);
+      }
+    }
+    if (query.length < 3) {
+      setMovies([]);
+      setError("");
+      return;
+    }
+    getMovies();
+  }, [query]);
+
+  const handleSearch = (term) => {
+    setQuery(term);
+  };
 
   return (
     <>
       <NavBar>
         <Logo />
-        <Search />
+        <Search handleSearch={handleSearch} />
         <NumResults movies={movies} />
       </NavBar>
       <Main>
         <Box>
-          <MovieList movies={movies}></MovieList>
+          {isLoading && <Loader />}
+          {!isLoading && !error && <MovieList movies={movies}></MovieList>}
+          {error && <ErrorMessage message={error} />}
         </Box>
         <Box>
           <WatchedSummary watched={watched} />
@@ -74,6 +113,10 @@ export default function App() {
     </>
   );
 }
+
+const ErrorMessage = ({ message }) => <p className="error"> {message} </p>;
+const Loader = () => <p className="loader">Loading...</p>;
+
 const NavBar = ({ children }) => {
   return <nav className="nav-bar">{children}</nav>;
 };
@@ -188,16 +231,14 @@ const Logo = () => (
   </div>
 );
 
-const Search = () => {
-  const [query, setQuery] = useState("");
-
+const Search = ({ query, handleSearch }) => {
   return (
     <input
       className="search"
       type="text"
       placeholder="Search movies..."
       value={query}
-      onChange={(e) => setQuery(e.target.value)}
+      onChange={(e) => handleSearch(e.target.value)}
     />
   );
 };
