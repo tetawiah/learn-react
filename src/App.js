@@ -210,12 +210,18 @@ const MovieDetails = ({ selectedId, onCloseMovie, onAddWatched, watched }) => {
         `http://www.omdbapi.com/?apikey=${key}&i=${selectedId}`
       );
       const data = await response.json();
-      console.log(data);
       setMovie(data);
       setIsLoading(false);
     }
     getDetails();
   }, [selectedId]);
+
+  useEffect(() => {
+    if (!title) return;
+    document.title = `Movie | ${title}`;
+
+    return () => (document.title = "usePopcorn");
+  }, [title]);
 
   const addWatched = () => {
     const newMovieWatched = {
@@ -274,7 +280,6 @@ const MovieDetails = ({ selectedId, onCloseMovie, onAddWatched, watched }) => {
 };
 
 const WatchedList = ({ watched, onDelete }) => {
-  console.log(watched);
   return (
     <ul className="list">
       {watched.map((movie) => (
