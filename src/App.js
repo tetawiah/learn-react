@@ -60,6 +60,10 @@ export default function App() {
     handleCloseMovie();
   };
 
+  const handleDeleteWatched = (id) => {
+    setWatched((watched) => watched.filter((movie) => movie.imdbId !== id));
+  };
+
   return (
     <>
       <NavBar>
@@ -89,7 +93,7 @@ export default function App() {
           ) : (
             <>
               <WatchedSummary watched={watched} />
-              <WatchedList watched={watched} />
+              <WatchedList watched={watched} onDelete={handleDeleteWatched} />
             </>
           )}
         </Box>
@@ -185,7 +189,6 @@ const MovieDetails = ({ selectedId, onCloseMovie, onAddWatched, watched }) => {
   const watchedUserRating = watched.find(
     (movie) => movie.imdbId === selectedId
   )?.userRating;
-  console.log(watchedUserRating);
 
   const {
     Title: title,
@@ -270,18 +273,18 @@ const MovieDetails = ({ selectedId, onCloseMovie, onAddWatched, watched }) => {
   );
 };
 
-const WatchedList = ({ watched }) => {
+const WatchedList = ({ watched, onDelete }) => {
   console.log(watched);
   return (
     <ul className="list">
       {watched.map((movie) => (
-        <WatchedMovie movie={movie} key={movie.imdbID} />
+        <WatchedMovie movie={movie} key={movie.imdbID} onDelete={onDelete} />
       ))}
     </ul>
   );
 };
 
-const WatchedMovie = ({ movie }) => {
+const WatchedMovie = ({ movie, onDelete }) => {
   return (
     <li>
       <img src={movie.poster} alt={`${movie.title} poster`} />
@@ -300,6 +303,9 @@ const WatchedMovie = ({ movie }) => {
           <span>{movie.runtime} min</span>
         </p>
       </div>
+      <button className="btn-delete" onClick={() => onDelete(movie.imdbId)}>
+        &times;
+      </button>
     </li>
   );
 };
