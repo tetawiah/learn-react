@@ -16,12 +16,16 @@ export default function App() {
   const [selectedId, setSelectedId] = useState(null);
 
   useEffect(() => {
+    const controller = new AbortController();
+
     async function getMovies() {
       try {
         setIsLoading(true);
         setError("");
+
         const response = await fetch(
-          `http://www.omdbapi.com/?apikey=${key}&s=${query}`
+          `http://www.omdbapi.com/?apikey=${key}&s=${query}`,
+          { signal: controller.signal }
         );
         if (!response.ok)
           throw new Error("Something went wrong with fetching movies");
@@ -29,8 +33,9 @@ export default function App() {
         const data = await response.json();
         if (data.Response === "False") throw new Error("Movie not found");
         setMovies(data.Search);
+        setError("");
       } catch (err) {
-        setError(err.message);
+        if (err.name !== "AbortError") setError(err.message);
       } finally {
         setIsLoading(false);
       }
@@ -41,6 +46,10 @@ export default function App() {
       return;
     }
     getMovies();
+
+    return function () {
+      controller.abort();
+    };
   }, [query]);
 
   const handleSearch = (term) => {
@@ -202,7 +211,6 @@ const MovieDetails = ({ selectedId, onCloseMovie, onAddWatched, watched }) => {
     Director: director,
     Genre: genre,
   } = movie;
-
   useEffect(() => {
     async function getDetails() {
       setIsLoading(true);
