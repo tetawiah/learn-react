@@ -1,18 +1,24 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
 
-const InputField = ({ onAmountChange }) => {
+const InputField = ({ onAmountChange, isLoading }) => {
   return (
     <input
       type="text"
       onChange={(e) => onAmountChange(Number(e.target.value))}
+      disabled={isLoading}
     ></input>
   );
 };
 
-const CurrencyDropDown = ({ onCurrencyChange }) => {
+const CurrencyDropDown = ({ onCurrencyChange, isLoading, cur }) => {
   return (
-    <select name="currency" onChange={(e) => onCurrencyChange(e.target.value)}>
+    <select
+      name="currency"
+      onChange={(e) => onCurrencyChange(e.target.value)}
+      disabled={isLoading}
+      value={cur}
+    >
       <option value="USD">USD</option>
       <option value="EUR">EUR</option>
       <option value="CAD">CAD</option>
@@ -22,10 +28,11 @@ const CurrencyDropDown = ({ onCurrencyChange }) => {
 };
 
 export default function App() {
-  const [curFrom, setCurFrom] = useState("");
-  const [curTo, setCurTo] = useState("");
+  const [curFrom, setCurFrom] = useState("USD");
+  const [curTo, setCurTo] = useState("EUR");
   const [amount, setAmount] = useState("");
-  const [conversion, setConversion] = useState("");
+  const [converted, setConverted] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleOnAmountChange = (amount) => {
     setAmount(amount);
@@ -40,28 +47,44 @@ export default function App() {
   };
 
   useEffect(() => {
+    if (curFrom === curTo) return setConverted(amount);
     const host = "api.frankfurter.app";
-    if (amount && curFrom && curTo)
+    if (amount && curFrom && curTo) {
+      setIsLoading(true);
       fetch(
         `https://${host}/latest?amount=${amount}&from=${curFrom}&to=${curTo}`
       )
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
-          const quote = Object.values(data.rates)[0];
-          if (quote) setConversion(quote);
+          if (data) setConverted(data.rates[curTo]);
+          setIsLoading(false);
         })
-        .catch((e) => alert("Something went wrong"));
+        .catch((e) => {
+          alert(e);
+          setIsLoading(false);
+        });
+    }
   }, [amount, curFrom, curTo]);
 
   return (
     <div>
       <span>
-        <InputField onAmountChange={handleOnAmountChange} />
-        <CurrencyDropDown onCurrencyChange={handleFromCurChange} />
-        <CurrencyDropDown onCurrencyChange={handleToCurChange} />
+        <InputField
+          onAmountChange={handleOnAmountChange}
+          isLoading={isLoading}
+        />
+        <CurrencyDropDown
+          onCurrencyChange={handleFromCurChange}
+          isLoading={isLoading}
+          cur={curFrom}
+        />
+        <CurrencyDropDown
+          onCurrencyChange={handleToCurChange}
+          isLoading={isLoading}
+          cur={curTo}
+        />
       </span>
-      <p>{conversion}</p>
+      <p>{`${converted} ${curTo}`}</p>
     </div>
   );
 }
