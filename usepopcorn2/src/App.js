@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import StarRating from "./StarRating";
 import "./style.css";
 
@@ -351,6 +351,19 @@ const Logo = () => (
 );
 
 const Search = ({ query, handleSearch }) => {
+  const inputEl = useRef();
+
+  useEffect(() => {
+    const callback = (e) => {
+      if (document.activeElement === inputEl.current) return;
+      if (e.code === "Enter") {
+        inputEl.current.focus();
+        handleSearch("");
+      }
+    };
+    document.addEventListener("keydown", callback);
+    return () => document.addEventListener("keydown", callback);
+  }, [handleSearch]);
   return (
     <input
       className="search"
@@ -358,6 +371,7 @@ const Search = ({ query, handleSearch }) => {
       placeholder="Search movies..."
       value={query}
       onChange={(e) => handleSearch(e.target.value)}
+      ref={inputEl}
     />
   );
 };
