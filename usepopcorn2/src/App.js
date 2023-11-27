@@ -362,7 +362,7 @@ const Search = ({ query, handleSearch }) => {
       }
     };
     document.addEventListener("keydown", callback);
-    return () => document.addEventListener("keydown", callback);
+    return () => document.removeEventListener("keydown", callback);
   }, [handleSearch]);
   return (
     <input
