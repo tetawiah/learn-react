@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f1d1c0d-76b3-4d21-a61b-c25a433207b1" name="Changes" comment="" />
+    <list default="true" id="5f1d1c0d-76b3-4d21-a61b-c25a433207b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usereducer-bank-account/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/usereducer-bank-account/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/TT/WebstormProjects/react/learn-react/react-quiz",
+    "git-widget-placeholder": "usereducer-bank-account",
+    "last_opened_file_path": "/Users/TT/WebstormProjects/react/learn-react",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,9 +55,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/react-quiz" />
       <recent name="$PROJECT_DIR$/react-quiz/src" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/react-quiz/src/components" />
@@ -78,6 +82,7 @@
       <workItem from="1701457667422" duration="10998000" />
       <workItem from="1701501832188" duration="11117000" />
       <workItem from="1701517496286" duration="3212000" />
+      <workItem from="1701533460232" duration="4588000" />
     </task>
     <servers />
   </component>
