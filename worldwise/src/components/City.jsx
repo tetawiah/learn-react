@@ -1,6 +1,9 @@
 import styles from "./City.module.css";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useCities } from "../contexts/CitiesContext.jsx";
+import Spinner from "./Spinner.jsx";
+import BackButton from "./BackButton.jsx";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -10,25 +13,17 @@ const formatDate = (date) =>
     weekday: "long",
   }).format(new Date(date));
 
-const BASE_URL = "http://localhost:8002";
-
 function City() {
   const query = useParams();
-  const [currentCity, setCurrentCity] = useState({});
-  const [isLoading, setIsLoading] = useState(false);
+  const { isLoading, currentCity, getCity } = useCities();
 
-  useEffect(() => {
-    setIsLoading(true);
-    fetch(`${BASE_URL}/cities/${query.id}`)
-      .then((res) => res.json())
-      .then((data) => {
-        setCurrentCity(data);
-        setIsLoading(false);
-      });
-  }, []);
   const { cityName, emoji, date, notes } = currentCity;
 
-  if (isLoading) return;
+  useEffect(() => {
+    getCity(query.id);
+  }, [query.id]);
+
+  if (isLoading) return <Spinner />;
   return (
     <div className={styles.city}>
       <div className={styles.row}>
@@ -59,6 +54,9 @@ function City() {
         >
           Check out {cityName} on Wikipedia &rarr;
         </a>
+      </div>
+      <div>
+        <BackButton />
       </div>
     </div>
   );
