@@ -6,14 +6,23 @@ import {
   Popup,
   TileLayer,
   useMap,
-  useMapEvent,
   useMapEvents,
 } from "react-leaflet";
 import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext.jsx";
+import { useGeolocation } from "../hooks/useGeolocation.jsx";
+import Button from "./Button.jsx";
+import { get } from "leaflet/src/dom/DomUtil.js";
+
 export default function Map() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [mapPosition, setMapPostion] = useState([51.505, -0.09]);
+  const { cities } = useCities();
+  const {
+    position: geoLocationPosition,
+    isLoading: isLoadingPosition,
+    getPosition,
+  } = useGeolocation();
 
   const mapLat = searchParams.get("lat");
   const mapLng = searchParams.get("lng");
@@ -22,9 +31,19 @@ export default function Map() {
     if (mapLat && mapLng) setMapPostion([mapLat, mapLng]);
   }, [mapLat, mapLng]);
 
-  const { cities } = useCities();
+  useEffect(() => {
+    if (geoLocationPosition) {
+      setMapPostion([geoLocationPosition.lat, geoLocationPosition.lng]);
+    }
+  }, [geoLocationPosition]);
+
   return (
     <div className={styles.mapContainer}>
+      {!geoLocationPosition && (
+        <Button type="position" onClick={getPosition}>
+          {isLoadingPosition ? "Loading..." : "Use your current position"}{" "}
+        </Button>
+      )}
       <MapContainer
         className={styles.map}
         center={mapPosition}
