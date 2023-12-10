@@ -13,9 +13,9 @@ import { useCities } from "../contexts/CitiesContext.jsx";
 import { useGeolocation } from "../hooks/useGeolocation.jsx";
 import Button from "./Button.jsx";
 import { get } from "leaflet/src/dom/DomUtil.js";
+import useUrlPosition from "../hooks/useUrlPosition.jsx";
 
 export default function Map() {
-  const [searchParams, setSearchParams] = useSearchParams();
   const [mapPosition, setMapPostion] = useState([51.505, -0.09]);
   const { cities } = useCities();
   const {
@@ -23,9 +23,7 @@ export default function Map() {
     isLoading: isLoadingPosition,
     getPosition,
   } = useGeolocation();
-
-  const mapLat = searchParams.get("lat");
-  const mapLng = searchParams.get("lng");
+  const [mapLat, mapLng] = useUrlPosition();
 
   useEffect(() => {
     if (mapLat && mapLng) setMapPostion([mapLat, mapLng]);

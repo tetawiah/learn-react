@@ -13,7 +13,12 @@ const formatDate = (date) =>
 export default function CityItem({ city }) {
   // eslint-disable-next-line react/prop-types
   const { emoji, name, date, id, position } = city;
-  const { currentCity } = useCities();
+  const { cities, currentCity, deleteCity } = useCities();
+  const handleClick = (e, id) => {
+    e.preventDefault();
+    deleteCity(id);
+  };
+
   return (
     <li>
       <Link
@@ -25,7 +30,12 @@ export default function CityItem({ city }) {
         <span className={styles.emoji}> {emoji}</span>
         <h3 className={styles.name}> {name}</h3>
         <time className={styles.date}>{formatDate(date)}</time>
-        <button className={styles.deleteBtn}>&times;</button>
+        <button
+          className={styles.deleteBtn}
+          onClick={(e) => handleClick(e, id)}
+        >
+          &times;
+        </button>
       </Link>
     </li>
   );

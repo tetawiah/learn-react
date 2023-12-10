@@ -34,7 +34,30 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       }
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2023-12-09T23:20:29.297Z",
+      "notes": "",
+      "position": {
+        "lat": "51.50543026060531",
+        "lng": "-0.11175155639648439"
+      },
+      "id": 73930386
+    },
+    {
+      "cityName": "Kakata",
+      "country": "Liberia",
+      "emoji": "🇱🇷",
+      "date": "2023-12-09T23:57:10.564Z",
+      "notes": "",
+      "position": {
+        "lat": "6.533645130567532",
+        "lng": "-10.349121093750002"
+      },
+      "id": 73930394
     }
-
   ]
 }

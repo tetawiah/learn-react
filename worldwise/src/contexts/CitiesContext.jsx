@@ -33,6 +33,35 @@ function CitiesProvider({ children }) {
       });
   }
 
+  function createCity(newCity) {
+    setIsLoading(true);
+    fetch(`${BASE_URL}/cities`, {
+      method: "POST",
+      body: JSON.stringify(newCity),
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    })
+      .then((res) => res.json())
+      .then(() => {
+        setCities((cities) => [...cities, newCity]);
+        setIsLoading(false);
+      });
+  }
+
+  function deleteCity(id) {
+    setIsLoading(true);
+    fetch(`${BASE_URL}/cities/${id}`, {
+      method: "DELETE",
+    })
+      .then(() => {
+        setCities((cities) => cities.filter((city) => city.id !== id));
+      })
+      .catch((e) => alert("There was an error deleting city"))
+      .finally(setIsLoading(false));
+  }
+
   return (
     <CitiesContext.Provider
       value={{
@@ -40,6 +69,8 @@ function CitiesProvider({ children }) {
         isLoading,
         currentCity,
         getCity,
+        createCity,
+        deleteCity,
       }}
     >
       {children}
