@@ -48,16 +48,28 @@
       "id": 73930386
     },
     {
-      "cityName": "Kakata",
-      "country": "Liberia",
-      "emoji": "🇱🇷",
-      "date": "2023-12-09T23:57:10.564Z",
+      "cityName": "South Slave Region",
+      "country": "Canada",
+      "emoji": "🇨🇦",
+      "date": "2023-12-10T09:40:17.928Z",
       "notes": "",
       "position": {
-        "lat": "6.533645130567532",
-        "lng": "-10.349121093750002"
+        "lat": "60.96777587521079",
+        "lng": "-108.15147399902345"
       },
-      "id": 73930394
+      "id": 73930395
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2023-12-10T10:16:12.906Z",
+      "notes": "",
+      "position": {
+        "lat": "51.537580456458045",
+        "lng": "-0.10059356689453126"
+      },
+      "id": 73930396
     }
   ]
 }

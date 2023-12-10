@@ -13,7 +13,7 @@ const formatDate = (date) =>
 export default function CityItem({ city }) {
   // eslint-disable-next-line react/prop-types
   const { emoji, name, date, id, position } = city;
-  const { cities, currentCity, deleteCity } = useCities();
+  const { currentCity, deleteCity } = useCities();
   const handleClick = (e, id) => {
     e.preventDefault();
     deleteCity(id);
