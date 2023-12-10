@@ -5,208 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1d1c0d-76b3-4d21-a61b-c25a433207b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/012cd08af54a26e989534e7f3c4ec934730b8107305db8b08e003793e51f0e1e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/018a576ff51d68c080123e08933bf8e05a0016ac770f81b296d641950a640abf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/02101c65fac411fc2d784e29678cf0f4e82032e2fbc9677aba3579eab642c020.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/03542fa4c2e537bbcd5002cbc05e212bc0e1655546fcb594ec9a62e64c38cb39.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/0405488d38f2f34da22b516321e5f455be243c26d5f3dc738aeabfd3fd726e47.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/04c1e003d33154e0679763f70bd476a5dbf3173069bc83db89238b22a548e0af.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/04d4c43bb2f070f1a0f7cd9dbe9bc5e54d507406c2c9793343064b92033a68c0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/05402175d9b7485b06786319fcb7abfc8e5d7a5cd880fb1f61b56a2955e35a06.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/059a98778fc0789cb067390d1a5fc6f440224e7395230913a25992a5a54a1fd2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/05c0dbc5d7193e6e5ff22934be737bace6c5071a59e4839f7929c1b6f85452ae.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/0921162b87e77e3bd8198ee8b249da4cd8ee6cd242efe4f25be38c07397ddbc9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/09978fa7faf57f48976a7afd8b0ae0266b13f22553c10d8fd94b68119b98aca1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/0a54707b4b919718f1ee6ea13494f7ad901a52f298f2748b4878ac20725127dc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/0c14f4c7431c9909d85091cd6889dc005bc1a595f4873cec353ba41b99cf3fb2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/0c175778161565146bc79d20f6ce49af68bb41142a9fea1764213befc5eba5a4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/0db926af96a98bf3096cd079439570ddd3770881b81d67cc00268ac77654fe47.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/0f20f0d11aadea54d8db9241d7a34c73383ce6f67e52cc12f91057cbdeea51d8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/1500cf2ffe6cf5545cf80475d6cc034080d57667fece809d5e63d4987c30893f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/15a437d85b1fafb4f19de7502dbf6b91c5741c8e2becf37ba7bbc78e51328e77.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/165b2c70356f70ab50e14c76dd4d1ac565c01081b69535164d4ee88ccae2a345.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/18a318ae566ac7e1a236899db1c7b747eac312991063ba86449ac0982d77a4f4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/1b6d83888dc975efe3585eb44214ad6616a84756e05bbb2674dc14e53b0a059e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/1cf5e1780f182543b9a83e1b1086943130f8342eaff7ff1959ac11acefa69ccf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/1e5e8f11ffd255e0097ae0c3a20842a3df6ef699289758e4aed55f9f286d881f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/1f6c7b884219b87cef0daae4c45efcb0cd537aa44e3ebbfb9e3ab2078c8e26a4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/1fb9711ec7a4da30f25fac4f55931c78ff2b38a9aa49ed35b86914f89fe15851.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/207ef7c312d8408b56585e74024830575c9adbbf1621c34c45ced78f835a8fce.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/215078587cd10323df70ecd7372b0aa62db3a873f0411c80ccf8debf520cf41f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/231f734fcac32552ffc98cc3f090c66f89c6f7682cf0282f9723042fbfc25194.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/266d143713e11fd25cd6da31cb3826efd3dd71eb21a351bb46a817e4b73de3c7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/28195ec8f6932dc0892663d5f02ec1b25617235ec8bd1d19588812440e62603f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/28cedb9e0adb5ecb1503949251399aed31d6e6546212c82948fcb065d37b68b0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/2915aa255aa91663741f27359e26d4c1a5d6efbf0677b68a8ac41b143de74481.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/2aa617160ce6bfa17e363b65ca111feda15efea80b9cbeb08839fefa6346e163.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/2c4948a3feadbbad94c5d166057c3689bb68fad21e8a2660b3146d2d0d85721f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/2dc3038f4fbace3d01b638d6fb53f85880310e801bfcf844fae296c8e397f9d1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/2ee3e874018525a943308a588727cae9b9c56e907b27e8d5621c35a718e4e474.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/35a3b7900fe8e427b07f6bcd02bcce5107f9b8fd8e95e96e2e59dbb3687db007.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/385b33a2ae559bd496123868839e71547d9a63922f69c3cbd5b2a3ada9dc797e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/38c019b4135436f630d6ad160c9aaa2b94123562cd26ac748cf436ce9400f50e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/38c81cd43bc65b619fa8971521a105eb780148c6b07697d526964faf4f63e83c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/39f591dc9d61cd5c806fb2f7146a447fcbadf9161bce0c296b7c508f46c7ee76.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/3ce984ac11d4df37f1e28ea251f39ae2b2c9d09c56ec6b63147f59f5f54c43bd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/3e6e9f15b777eaa375c9c498617c7d2c1456e398c1fc1d589ae6d3ee8687e05f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/3ed53dde80ed58f8e1f47c24de8040af742664e050f5572edc0a07c6f6961099.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/3fc246edd7a3192534a5ec67956b3383c10c3d1e2562ca21e52a1d5b51312c31.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/40c09f03f062506b378abeaef8b336fba86ac6ed190d86ba26949919f7d4d51a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/4105b275f2b25d8fbdb0c468bf65e4d7415f6a0fc2d0e6e3fccbd659b7a454ca.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/410e9d23bdf08e5d22d771329fec9f1029c5deef2d713baca4bff89cccbc1cfa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/415e3ac15605def47833d29c1a01d7fd5dade78d0c8e263a6df69847eb8ec28b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/41fc56ecf10bf41063e2abedf215bfde40ae9982faa332cd0d6451c7e11b1f92.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/4451cf29256fe74bf8918e1ddf1daeb0482775f73ffff33af633745c261d6acb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/4e3cba765ecd76f5bfc5eaf1f7862326db3d9b09a7e5e3dbcd31738d2410c2c6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/50833a77bd1e12154cc0344b0b6e32c8a52877228c7ede7777091442d6f77dda.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/5153b649e5194c5883ee9c7817485442203261d81314dff740cf119a617a0292.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/519c56a4d9d32b2d198eb394b2f1aa1cb5d3ab09409b69d92f93bc855c727d6e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/52a95b77baf251f00df8d77405c111b4a0b5f99fc2444b61cf6fca1aafbc52e9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/555e9ba98b038513f7a86af0007f48eb73765b164b721a819770f293f83de73f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/556aaa086683d841768029cb7a6b0ea8391857d438aca6f231138a0dd1b1cc06.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/559be9f65b21ecc253b84932b82b598ba34eddb1027bc99d4bdec93c1cf066cf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/5afe5a2f95cc0e586e5bcacb215f4da5651d8dcee01a4d159aac4100c77c418a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/5b7d5639cf38b1322fff8980ede8223e065e36c0815dac49190ec85349e2adc5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/5bdee931968625dbf82c0592e3a668f0ffa0ffa311347106c92efaac64098c2c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/5cc0d8de54bfde611066bcf3b239377f986e38cd100766b8cdeed4f7dc38046a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/5d84e0f5961a2dd9c98d537365920be392a9237bb8e37e60fddb20fdbe2ae5ee.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/5e45d9de4adf76c2029a633386b40c10a0b529ac68dd57e9c9cb57b629a1a506.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/62d35f6b03c11ab9714fccd87ed85d2b17763a57dc10dc862fab99a951cb6959.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/64960a590d0a95a21158d06ea60fb6a9e832fa24ac0840c847f189d0e8209a1e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/67154790b8cbb2a3525b41a189bbe13c8e63724836081f6e3153c8960123835b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/68a83a855bd7a195d084aab6dc96fd5ac4244ced3ce9c3a12e9d9feb4347bb3d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/69051dad077c5cbcc720bf8aa37324de5dce340b6181b0731bd50b1744acdb21.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/6a43984284dd47ba0ed72f072bce3d2ec9e40f2cfd326c51a47dbee335d353b6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/6ac6e96c3c9a7673cf1b889f6a61cbcd2190477b3cf633620edf047e457a85de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/6b3bf2be416e642a3f5542c72835ce10b39c25edfd6ba99a0eda43bb90921d17.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/6bd3394aab1d707d84e677723a616bb82aa30aa184475edfd8c2a41013ee8562.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/6ca4217c6cceb6c7e02818b966a7c08571db54c37177232d6d8305f1246181ce.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/6d815aabf5417a9ce9adf7b04d03a3dc70dd2b218faa43bcbee49b098915af1b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/744a927a615ba22ad24068c03df43ea40b0724b7c520586360c9dd41cbc1f865.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/7564ce1987062e979b71f22719bd946bb71aba517091cf7fd3b65c5843c888c4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/77a685bb90b861a81dba2c62e24af4864fa7de1627af5b5af2cf4a5c753c2bdf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/78288f4508b5b82571cae8b465dd89746969f2df19e93ea8252e3f67541eb797.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/78881b03f106c5ede30604535c65115b7d26ad8b29567c8ce1554128a0ad7f77.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/78c0d686d9c4af04ebb131bba9185bd0ba7cace9610dbcf9945678fcf90ba339.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/7b36fc9aca49ef66cb5be25e2a8f184b5c2930976a217268a9565bd743dadbbb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/7c352fd44ee57191e210c21ef46e1658a94253763fd244fb93e4912b7f6f3276.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/7e912649b81809ac75980e77f87fb0ba9b7b61adaee315e93b730910a0f4c713.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/80050c6e12692e65689f572ecdcc131fc8b13d2f51bf5c5fb5ecf3598816de04.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/80c71f92057eae1f491c09f88b1d77e4e0c73835a9da6d19c30d4ce22e0dd071.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/8324721458fb2b19b20cbf6444a7e0ea15c058c84205004f15d2369bcc5e5645.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/84804f00e01244353c747c0a7bd3e6bad3fa5e1158e264f3f12ac89a6a2e04fd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/84c334901121f9c1e55e3cf9b65a2c4b093bcdac03d15c8705010fef11d573c4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/89093281e0683d947dc595caece090fafa1d9a890941546fc011c8aab5b88340.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/891edb0c98992d3b4cbd8eedf7c075c0f85199850e4bd084b5a237dde09496ea.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/89d51d7aae65d7a13beb2c3776a3aa7f8ba1f5e0aa26aeb4d5a38d91f24bd970.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/8aed051092f74b52ac09e586c18b50e79b1b63f7dbcfe6e1b6b18204a98bd289.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/8b96fa11254ac1e993a76eae35ef8b9708039fd37763c62d2145c4856652ad5f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/8d29b6cdba34fdd64628c60f249c2b0ed755875e3625b16a4668e3c58e5a9f7b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/8d6a4892900c13771a4b62c7002a70c0b1a4505002c98125d43e51bfffda2a6f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/8dd8ecab6832fd7e5811a5f8e538ed80dbbb3b4fab1eaa85a534666dff2faa60.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/8e9a5fce395e6d10cf57406d4b290c7365b1424e1dbc87c7ef067aac8a927409.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/91184df3ae1e01c931afaff71281ae5d648f8625a5a96676c05ead9b16ff1439.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/935ec6309b29ebd1462073c6d6d2b65e9a6a13e14928bc36e525d2d5c99a1c4d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/957885df8c84187797c9a7d306d7450f8657eed099b167d8d1535aa97ddac4cb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/96e8473ee80f5aa32558ef137f27dd0019cc9e9926215b9b258011605f90031f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/973104f7a27574b0c6e3d3951de178453e4fe036ccc61d8e656359d83686af9a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/97b759da77597e655fb64266aae0b6ed92375a6b7379eee510e43b110897e405.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/9a8e671b7fe46233a0a40b5e425de3f8291a85b98458412b9bd1c54fd798a843.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/9b30e0157706b93bbc174fb38cb6f5b2285ac101d8a1e52cc61aa5d80d0623a2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/9b94afbde634294924d6fa6af63440573712ad8e42e87584523b633abafd307d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/9dc66ffa1c5a801f4fe69bd7fbd7ef497785667d1b794571791960f1d1298978.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/9e8ff8e5cd6b850b8b595b08412779490c0340af7d67db333fdffa10838490c8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/9f0e977a94fe129fb8232d3ef8b6e20b9e106b971a8709e8f587c4a3d412d451.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/9f9ba76b0e2e6021ad78930f98991d15907681b2430ab08ab52b6eeb3371456a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/9fbecfed70719d826d96e07c93c71d8d5374e9cb6a5af23f603974316ca30603.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/a5f44a9f08dc0f1042a2709ad35ef289b60231254948bc5b4d88e1b9ef690228.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/a6f152286f1b81cb4a2aad8fca9450e89ade675c605e7b23a2ae3a76e4ff04e4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/ac766a262f6ffc317f68bfc98af84960e68e13ed23ebab2d2b78365991820f11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/adbf4ef4278231c3bb58e70f324079f949e36a842a4d5e78ab4361a6377e74c6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/adf5e327f3cf04cbb74946f871a16bd2f2c53347973b441fced2b20b69419784.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/aea23d9dd5b24ef6d0cc3243d649c89474620d2159ce219f08e63e15e7734dc1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/b3e055b50e44bae26ef23367ab53646fabd274db87814135b0ecc521eeefb017.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/b454adb362be3f28d35cfd82fbcf7b8c312c17d338379c2d088950be5f7f6487.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/b47dfc4a6ecf8a3a52f48118f6ba7593c5db11ea53379ccc46867356ae9d45a3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/b4f83dcffa00a63c1a15ea578865722ed757a71c6887802a15a033e7bc28bdea.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/b7545efea4956661ebd146a396cd1d7982245232c846828c636731551be10b66.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/b8d2ed16eb232c311519386855abca55568fc6894c035f014fdba5a9e9a9b73f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/b907e97f8bc26230ffd1f17f3325f2c89b5c4a70b8b2ad919d81bd1630ecc8e4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/b9186de93d5433256ce65c2ebe417e40aeb44378046bd9b9fc57c28c1151cc34.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/b9c09b85fdb5b37e4f133955a4041dc4fd204bb1ebc340eadce287d9c2ede4c3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/bc1d08b38f7dbec3b7b4d9c957241f879f011c5a2112639e0f26a3d1e5a15a5c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/bc97c20ea07fbac559009be74eb830f47317fe21bd216c9ae960da865fc9ac3a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/bd1b02ee0b1119eaa52d0082e37f62e9f866e823e265bc9556623accb0ca5b24.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/befcf19931d1fd9a90f34187f08f4c83c4296d9b11edb0364020f25c2a07eba6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/bf9e54e15cd87086dc6e8bf3d40dbc8a28fd0fd47e3183e4cc8b0dc061969240.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/c0c9468196065e82ee8469599af7cb17407453135d74a0adb432491522365e2a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/c2f1407f4a28933d680254b65b844dc1ee4dbdc05837189e994d81e826a6fa1c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/c4516bc6f89166c42918f4056d5fcff51ca6b40f5e10d3083c762d0fc5363294.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/c58aa0ecb415619d506a7b4ba9d7ff0d721f7bb7a12bb95d3b06bfa2d463de1e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/c64424648def62f49f5cb0daf6365f214f58374e5925f2fd586fbeec923e66a6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/c69d5a9b8685b4e550b19a0ffac2a654676143c04abd7cbdf175caef9d899972.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/c8161a1c14013fbd18617e4a03f1e556caccb4dcd28710bc7546463bcead58b4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/c9b0a3ab4eaf368773f09a42a580c5f7d7d7f814435f594715d3415b3e49b626.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/ca0cf00e2163a18eafa9168f4ff52acee8cc62301dc9a6fecf111ead14041506.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/ca19ade2b9f74a38852bda0472c0966ffc866f48a97d628b9d03f3853d1e28a9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/cafff8308a9c5e51cb5a781e341e2bc348fc683261c5c502d847a87c32c72555.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/cf9b1b771169a6fdc4ecb71e27f99a3ce5176eabf1c1b8e89b73fbeac32ef20b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d09ae59b9c15f4ae58fe92684ffd09b7a2713a1a60d5754fcd1ee51322050c67.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d22a7b96efde1b6a707cc018fc948c0c6f3668a6d7bb5e897dc6459318250c34.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d25dcda22302728364593b327cc36f488391fcd0d3db1088622ce521024b42cc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d2945ac2e78e74c4a083f670f0c2b1d89c06891030c69f320f6e589a9766069d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d3eff8945d5bf667b7deb13aca3b18a5b77e43b87c350700a142e09c8a8814fb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d4f1011cb89280e13016436a2fac9047636e2c3734e1462143728c14e2c83e59.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d5faf35bd28510f82c25c782f09eddfb5933181cca8058e4bc8cb96897c9b289.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d62620c5bc4e2e9c6debbdaade1d06088fe193156ed7f1550964774de6d7aa5d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d91ef7ab0a7727b739879d3b01c770148f7e778b4adeb763c346669003356273.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d985b30c9ff5afe8eb5f1fe937622b3e6385a53c2884514ffb5542326efa6030.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/d9f2fe1845d8a4a75ac971b7c67783080d97286687dea20befc5b29fadbe5958.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/da4c2e9b01a056bc70d8c0abe7ed3e3108506808614d2e6b7ab1f50184242843.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/da752ed5a456477d5befa0d91dccc1df6e06945360caa5725370e294d9c66de2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/db4d835ee27245ecabbf20a5eeb73601ef9b30781d491768aee911d185b30f73.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/df1de8f60b0ed3de50105ee48edab1f7f54689f19b0ad483bb84e419a2e4a7b5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/e18e02d6375f11b0d417e802df5844bd8b4581be5c0750915aa766f70686f73e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/e3beb1c9812543960994c86d8d4874002d58638a130afadee9ba702316ca2d43.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/e6c1162fd10c4ba64f4e166f7ec5bc7538be51787d174fbde38a614b2da904ba.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/e9bed214c63d9976fd3fb7337415899fe2391dd42b83a3a7cbb2e788175d0add.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/e9ccaa7e324d788d0fb1c63cdd26ff43c556e877a8167e830c37f1b6ca0b6960.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/e9de82f9cb39768cf2fcbaaa424b1d666c42ae198da7b9499be3cdeb0c8e6d70.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/eaa8366a3f82f9c65fe63a74a6bb656c0a2fa9bd6929399c33f72e5d997d7c2d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/ec177fc6535e08a014abc7ca44fc7090193ecec54d9c4f9ea80f81a84aac0e5c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/ee276e9e00447fb0bae54981c3a0bf6b541ec8abb85aafc2d0f6e751f1c78347.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/eef9b8439203b93bbe2e0409c0f17a990e462be222a88423b9de9caedc808b27.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f1ec5ed71365e8af77af888203471dfe95587c536b22cd45ad0fc3b139856606.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f1f0711c8d46a906c28f559f0d775ecdd937c3ef5b01423cee419959b843c6a9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f1fec22a1b6c35e959d13bb145dcf561fd2bdbb80f5ea00b8fa4ded6d8c3a07e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f23f0adb14441f42c44aa2d5e52441cd5e8cc4e396fd3c931b04d3ddd7662d2f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f2d87e77f7bed6baff88182766e91da54265e824aaa73fe4f56481b810435414.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f2dbd00affe6a9476df687585223a17a1c40eb8ee2e12ecece093089e06dc99e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f37340dcebb7c5847970d3269755833f4d2e9fdd629d2ae358ccb86b45402e9d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f59994b9015b211aac818181e27618bd6edc6e2c4e2355554a1d898dc9dd217a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f61792ae554a862ce1a00786cadf3ae7152ef853b7f9e0eb291539ba12889b71.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f70341d4b4ac521f683d763d3fc205624f2d1a7bbea281f0fc37bca78a5956b8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f766d488797a5b2c1fc6a08c983007311dd38b5f531bfba8c7269baa44c55aa0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f7954fd00f9e41162f822008f11d712d83510486b34ad38ea6bda917b5437737.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/f94c43cb78f97a15196840273299f8b98639742a4b49f6132c94289f1bc8a08b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/faaab69483279d5797410cf09fccf586f5e5616a2a13faa6e2ad4e7baa265a91.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/fae086e029bda0869f0c55c74c93e1b536a0dfdf216390d109e6dbf8cd500044.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/fb53739dbf0503b821a80ced66498e65813bd6fb05b1851f1c79e9a83dcb8505.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/babel-loader/fc0cb8a41269cac64f5129dcd9780aafe2121d5b1da823e5814712a39920d013.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/default-development/13.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/default-development/14.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/default-development/15.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usereducer-bank-account/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usereducer-bank-account/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usereducer-bank-account/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usereducer-bank-account/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usereducer-bank-account/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usereducer-bank-account/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usereducer-bank-account/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usereducer-bank-account/src/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-quiz/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-quiz/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/react-quiz/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atomic-blog/starter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/atomic-blog/starter/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atomic-blog/starter/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/atomic-blog/starter/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,36 +36,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging main",
-    "last_opened_file_path": "/Users/TT/WebstormProjects/react/learn-react",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;worldwise&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/TT/WebstormProjects/react/learn-react/worldwise/src/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/TT/WebstormProjects/react/learn-react/worldwise/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/worldwise/src/data" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/react-quiz" />
       <recent name="$PROJECT_DIR$/react-quiz/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/worldwise/src/components" />
+      <recent name="$PROJECT_DIR$/worldwise" />
+      <recent name="$PROJECT_DIR$/worldwise/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/react-quiz/src/components" />
-      <recent name="$PROJECT_DIR$/react-quiz/data" />
-      <recent name="$PROJECT_DIR$/react-quiz/public" />
-      <recent name="$PROJECT_DIR$/react-quiz/src" />
-      <recent name="$PROJECT_DIR$/useGeolocation/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -283,6 +87,15 @@
       <workItem from="1701501832188" duration="11117000" />
       <workItem from="1701517496286" duration="3212000" />
       <workItem from="1701533460232" duration="4588000" />
+      <workItem from="1701621236682" duration="6506000" />
+      <workItem from="1701690284622" duration="9924000" />
+      <workItem from="1701708791192" duration="3000" />
+      <workItem from="1701714997894" duration="4861000" />
+      <workItem from="1701770544887" duration="7886000" />
+      <workItem from="1702045225007" duration="706000" />
+      <workItem from="1702046301630" duration="45000" />
+      <workItem from="1702046358475" duration="1547000" />
+      <workItem from="1702057873264" duration="704000" />
     </task>
     <servers />
   </component>

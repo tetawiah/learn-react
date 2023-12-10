@@ -51,6 +51,7 @@ const usePosts = () => {
   const context = useContext(PostContext);
   if (context === undefined)
     throw new Error("Post context is being used outside the provider");
+  return context;
 };
 
 export { PostProvider, usePosts };
