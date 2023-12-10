@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f1d1c0d-76b3-4d21-a61b-c25a433207b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atomic-blog/starter/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/atomic-blog/starter/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atomic-blog/starter/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/atomic-blog/starter/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YwbZpXDngQhUJEJLiu13J0fVkh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;worldwise&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/TT/WebstormProjects/react/learn-react/worldwise/src/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/TT/WebstormProjects/react/learn-react/worldwise/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/worldwise/src/data" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/react-quiz" />
+      <recent name="$PROJECT_DIR$/react-quiz/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/worldwise/src/components" />
+      <recent name="$PROJECT_DIR$/worldwise" />
+      <recent name="$PROJECT_DIR$/worldwise/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/react-quiz/src/components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f1d1c0d-76b3-4d21-a61b-c25a433207b1" name="Changes" comment="" />
+      <created>1701439646761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701439646761</updated>
+      <workItem from="1701439647937" duration="5561000" />
+      <workItem from="1701456832213" duration="649000" />
+      <workItem from="1701457506897" duration="14000" />
+      <workItem from="1701457531892" duration="125000" />
+      <workItem from="1701457667422" duration="10998000" />
+      <workItem from="1701501832188" duration="11117000" />
+      <workItem from="1701517496286" duration="3212000" />
+      <workItem from="1701533460232" duration="4588000" />
+      <workItem from="1701621236682" duration="6506000" />
+      <workItem from="1701690284622" duration="9924000" />
+      <workItem from="1701708791192" duration="3000" />
+      <workItem from="1701714997894" duration="4861000" />
+      <workItem from="1701770544887" duration="7886000" />
+      <workItem from="1702045225007" duration="706000" />
+      <workItem from="1702046301630" duration="45000" />
+      <workItem from="1702046358475" duration="1547000" />
+      <workItem from="1702057873264" duration="704000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
