@@ -33,8 +33,3 @@ export function updateName(fullName) {
     payload: { fullName },
   };
 }
-//
-// store.dispatch(createCustomer("TT", "10101010"));
-// console.log(store.getState());
-// store.dispatch(updateName("get TT"));
-// console.log(store.getState());

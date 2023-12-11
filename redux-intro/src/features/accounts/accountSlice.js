@@ -62,13 +62,3 @@ export function payLoan() {
     type: "account/payLoan",
   };
 }
-
-//
-// store.dispatch(deposit(600));
-// console.log(store.getState());
-// store.dispatch(withdraw(100));
-// console.log(store.getState());
-// store.dispatch(requestLoan(500, "For wetin no concern you"));
-// console.log(store.getState());
-// store.dispatch(payLoan());
-// console.log(store.getState());
