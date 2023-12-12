@@ -34,10 +34,13 @@ const accountSlice = createSlice({
         state.balance += state.loan;
       },
     },
-    payLoan(state, action) {
+    payLoan(state) {
       state.balance -= state.loan;
       state.loan = 0;
       state.loanPurpose = "";
+    },
+    convertCurrency(state) {
+      state.isLoading = true;
     },
   },
 });
